@@ -1,0 +1,410 @@
+/*
+Title: Main CSS 
+Author: Travis Caro
+Course: CIS 370
+Description: Style appropriate elements to create aesthetically pleasing design
+*/
+
+/*  SELECTORS   */
+body{
+    padding:0;
+    margin:0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #0066ff;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color:#555;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#0088ff;
+}
+
+footer{
+    background: #0066FF;
+    color: white;
+}
+
+footer a{
+    color: #aaa;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+footer ul{      
+    text-align: center;
+    list-style: none;    
+    padding: .5%;    
+}
+
+footer ul li{
+    display: inline;
+}
+
+header img{
+    display:block;
+    width: 100%;
+}
+
+table{
+    text-align: center;
+    padding: 3%;      
+}
+
+
+/*  .CLASSES  */
+
+.pad-10{
+    padding: 10%;
+}
+
+.clearable{
+    clear:both;
+}
+
+.container{
+    width: 100%;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+.content-main{
+    width:100%;
+}
+
+.innercontent{
+    width: 90%;
+    margin:auto;
+    padding: 5%;
+}
+
+.content-center{
+    text-align: center;
+    padding:.5%;
+}
+
+.content-largefont{
+    padding: 2.5%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.heading-sec{
+    text-align:center;
+    padding: 5%;
+    font-size: 4em;
+}
+
+.under-construction{
+    text-align: center;
+    padding: 5%;
+}
+
+.news-article{
+    width:80%;
+    margin:auto;
+    padding:2.5%;
+}
+
+.news-article img{
+    display:block;
+    margin:auto;
+    width: 100%;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.footer-quote{
+    font-style: italic;
+    text-align: center;
+    padding:.5%;
+    margin: auto;
+}
+
+.table-title{
+    font-size: 2.25em;  
+}
+
+.column-title{
+    font-size: 1.25em;
+}
+
+.header-table{
+    width: 70%;
+    margin:auto;
+}
+
+.header-table td{
+    padding: 1.5%;
+}
+
+.content-table{
+    width: 70%;
+    margin:auto;
+}
+
+.content-table td{
+    padding: 1.5%;
+}
+
+.inspiration-container{
+    width: 90%;
+    margin:auto;
+}
+
+.inspiration-container img{
+    display: block;
+    width:100%;
+}
+
+.content-inspiration{
+    padding: 5%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.fileUploadButton{
+    padding:1.5%;
+    font-size: 1.2em;
+    text-align: center;
+    width: 25%;
+    margin: 1% auto;
+    border: 2px solid #0022ff;    
+}
+
+.fileUploadButton:hover{
+    border: 2px solid #0088ff;
+    cursor: pointer;
+
+}
+
+.fileManage h1{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2.5%;     
+}
+
+.directoryList{
+    width:40%;
+    margin: auto;
+    text-align: left;
+    padding: 2.5%;   
+}
+
+.subscribeForm{
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+}
+
+.headRow{
+    background: #1177ff;
+}
+
+.evenRow{
+    background: #2288ff; 
+}
+
+.oddRow{
+    background: #66aaff;
+}
+
+.detailView{
+    width: 50%;
+    margin: auto;
+}
+
+.formRow label{
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    text-align: right;
+    padding: 1.5%;
+}
+
+.buttonPanel{
+    width: 100%;
+}
+
+.searchForm{
+    margin: 2.5% auto;
+    width:50%;
+    padding: 1.5%;
+}
+
+.rowFoundLabel{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
+.searchButton{
+    padding: .5%;
+    font-size: 1.2em;
+    text-align: center;
+    width: 15%;
+    margin: 1% auto;
+    border: 2px solid #0022ff;    
+}
+
+.searchButton{
+    border: 2px solid #0088ff;
+    cursor: pointer;
+
+}
+
+.formSubmit{
+    display: block;
+    margin: 1.5% auto;
+}
+
+.reqfield{
+    color: red;
+    font-weight: bold;
+}
+
+.login{
+    padding: 2.5%;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.securityForm{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+
+
+/*  #IDS    */
+
+#gradesheet *{
+    border: 2px solid #0066FF;
+}
+
+#home-head{
+    text-align: center;
+}
+
+#home-head img{
+    display:block;
+    margin:auto;
+    padding: 2%;
+    max-width: 100%;
+}
+
+#footer-copyright{
+    text-align:center;
+    padding: 2%;
+}
+
+#footer-feedback{
+    text-align: center;
+}
+
+#map-view{
+    width:80%;
+    height: 500px;
+    margin: auto;
+    padding: 0;
+    z-index: 1;
+}
+
+#member-table{
+    margin:auto;
+    width:80%;
+    border-collapse: collapse;
+    color: white;
+}
+
+#member-table th{
+    border: 1px solid #0066FF;
+    padding:10px;
+}
+
+#member-table td{
+    border: 1px solid #0066FF;
+    padding:10px;
+}
+
+#member-table a{
+    color: white;
+    text-decoration: underline;
+}
+
+#member-table a:hover{
+    font-weight: bold;
+}
+
+#editButton{
+    text-align: center;
+    width: 25%;
+    margin: 2% 5% 5% 10%;
+    float: left;
+    border: 2px solid #0022ff;
+    padding: 1.5%;
+}
+
+#editButton:hover{
+    border: 2px solid #0088ff;
+    cursor: pointer;
+
+}
+
+#deleteButton{
+    text-align: center;
+    width: 25%;
+    margin: 2% 10% 5% 5%;
+    float: left;
+    border: 2px solid #0022ff;
+    padding: 1.5%;
+}
+
+#deleteButton:hover{
+    border: 2px solid #0088ff;
+    cursor: pointer;
+}
+
+#searchIcon
+{
+    width: 30px;
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+#searchIcon:hover{
+    cursor: pointer;
+}
+
+#searchBox{
+    display:inline-block;
+    width: 90%;
+    padding: .5%;
+    font-size: 1.2em;
+    vertical-align: top;
+}
+
+#checkCurMember{
+    margin: .5%;
+    padding: .5%;
+}
